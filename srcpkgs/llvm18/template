@@ -1,7 +1,7 @@
 # Template file for 'llvm18'.
 pkgname=llvm18
 version=18.1.8
-revision=5
+revision=6
 build_wrksrc=llvm
 build_style=cmake
 configure_args="
@@ -43,6 +43,8 @@ checksum=09c08693a9afd6236f27a2ebae62cda656eba19021ef3f94d59e931d662d4856
 conflicts="llvm17>=0 llvm15>=0"
 lib32disabled=yes
 python_version=3
+
+nocross="temporarily"
 
 build_options="clang clang_tools_extra lld mlir libclc polly lldb flang bolt
  openmp libcxx libunwind lto graphviz"
