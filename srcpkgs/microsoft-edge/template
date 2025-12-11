@@ -13,6 +13,9 @@ homepage="https://www.microsoft.com/en-us/edge"
 distfiles="https://packages.microsoft.com/yumrepos/edge/Packages/m/microsoft-edge-stable-${version}-1.x86_64.rpm"
 checksum=743ba6c8d8469faca1434d68ac7aba815a4f5d98d6d17124fe45bfe006dd6a66
 
+repository=nonfree
+restricted=yes
+
 do_install() {
 	# Copy files
 	vcopy "*" /
