@@ -1,6 +1,6 @@
 # Template file for 'microsoft-edge'
 pkgname=microsoft-edge
-version=142.0.3595.80
+version=143.0.3650.139
 revision=1
 archs="x86_64"
 create_wrksrc=yes
@@ -11,7 +11,7 @@ maintainer="mobinmob <mobinmob@disroot.org>"
 license="custom:proprietary" #no vlicense
 homepage="https://www.microsoft.com/en-us/edge"
 distfiles="https://packages.microsoft.com/yumrepos/edge/Packages/m/microsoft-edge-stable-${version}-1.x86_64.rpm"
-checksum=743ba6c8d8469faca1434d68ac7aba815a4f5d98d6d17124fe45bfe006dd6a66
+checksum=63329d893c3c684bfd8334e8432119f937d9bb0a94a638216c9f71c7e29f81c8
 
 repository=nonfree
 restricted=yes
