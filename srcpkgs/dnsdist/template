@@ -1,6 +1,6 @@
 # Template file for 'dnsdist'
 pkgname=dnsdist
-version=2.0.3
+version=2.1.0
 revision=1
 build_style=meson
 build_helper="meson"
@@ -17,7 +17,7 @@ license="GPL-2.0-only"
 homepage="https://dnsdist.org/"
 changelog="https://dnsdist.org/changelog.html"
 distfiles="https://downloads.powerdns.com/releases/${pkgname}-${version}.tar.xz"
-checksum=a229250b819c40d55173afa7202ef1ef2a6b728f85c7506897a1f1ca6ab57149
+checksum=8714b7ca065b2d7ae5da980bc81a94d2baaa725a9b3c2c23b3a0fadb7c6a8335
 
 system_accounts="_dnsdist"
 
