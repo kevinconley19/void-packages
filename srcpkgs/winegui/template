@@ -1,6 +1,6 @@
 # Template file for 'winegui'
 pkgname=winegui
-version=4.1.0
+version=4.2.0
 revision=1
 archs="i686* x86_64*"
 build_style=cmake
@@ -13,7 +13,7 @@ maintainer="Melroy van den Berg <melroy@melroy.org>"
 license="AGPL-3.0-only"
 homepage="https://gitlab.melroy.org/melroy/winegui"
 distfiles="https://github.com/winegui/WineGUI/releases/download/v${version}/WineGUI-Source-v${version}.tar.gz"
-checksum=d248d9d61ec9a3474a08ab40548031d93bf19147c9a281a98ddf30f406f65dff
+checksum=9569b388d277ee5d6a43178b56888fa466f10bd7dbc31e2adc81a2d171fc6a4f
 
 post_install() {
 	vlicense LICENSE
